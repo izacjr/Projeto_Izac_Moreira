@@ -7,19 +7,17 @@ class A {
         this.A2 = a2;
     }
 
-    // Getters e Setters
+    
     public getA1(): number { return this.A1; }
     public setA1(valor: number): void { this.A1 = valor; }
-
     public getA2(): number { return this.A2; }
     public setA2(valor: number): void { this.A2 = valor; }
 
-    // Métodos solicitados
-    public MA1(): void {
-        console.log("MA1");
-    }
+    public MA1(): void { console.log("MA1"); }
+    public MA2(): void { console.log("MA2"); }
 
-    public MA2(): void {
-        console.log("MA2");
+    
+    public MA3(): void {
+        console.log("Alteração a classe A partir do clone");
     }
 }
