@@ -21,4 +21,8 @@ class D {
     public MD2(): void {
         console.log("Executando método MD2 da Classe D");
     }
+
+    public MD4(): void {
+    console.log("MD4");
+}
 }
