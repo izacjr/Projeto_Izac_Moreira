@@ -7,19 +7,15 @@ class C {
         this.C2 = c2;
     }
 
-    // Gets e Sets
     public getC1(): string { return this.C1; }
     public setC1(valor: string): void { this.C1 = valor; }
-
     public getC2(): number { return this.C2; }
     public setC2(valor: number): void { this.C2 = valor; }
 
-    // Métodos solicitados
-    public MC1(): void {
-        console.log("MC1");
-    }
+    public MC1(): void { console.log("MC1"); }
+    public MC2(): void { console.log("MC2"); }
 
-    public MC2(): void {
-        console.log("MC2");
+    public MC3(): void {
+        console.log("MC3");
     }
 }
